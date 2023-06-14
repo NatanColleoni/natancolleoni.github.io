@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+   <html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Portfólio - Natan Colleoni</title>
+   </head>
+   <body>
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               Natan <span>Colleoni</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link">Home</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">Sobre</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projetos</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link">Contato</a>
+                  </li>
+               </ul>
+
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <main class="main">
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__content">
+                  <div class="home__data">
+                     <h3 class="home__subtitle">
+                        Olá, <span>eu sou </span>
+                     </h3>
+                     <h1 class="home__title">Natan Colleoni</h1>
+
+                     <h3 class="home__education">Desenvolvedor Full-stack</h3>
+
+                     <p class="home__description">
+                        Possuo experiência trabalhando com 
+                        frontend e backend utilizando Angular e .NET.
+                     </p>
+
+                     <a href="#contact" class="button">Entre em contato</a>
+
+                     <div class="home__social">
+                        <a href="https://github.com/NatanColleoni" target="_blank" class="home__social-link">
+                           <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/natan-colleoni-fonseca-3533071a7/" target="_blank" class="home__social-link">
+                           <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h3 class="section__subtitle">
+                     Minha  <span>Introdução</span>
+                  </h3>
+
+                  <h2 class="section__title">
+                     Sobre mim
+                  </h2>
+
+                  <p class="about__description">
+                     Comecei a trabalhar com desenvolvimento de software alguns anos atrás. Possuo experiência em projetos pequenos e grandes utilizando metodologias ágeis(SCRUM, SAFe), Cloud (Azure), Backend(.NET/C#, PHP), Frontend(Angular, Vue).
+                  </p>
+
+                  <a href="#contact" class="button">Entre em contato</a>
+               </div>
+            </div>
+         </section>
+
+         <section class="skills section">
+            <div class="skills__container container grid">
+               <div class="skills__data">
+                  <h3 class="section__subtitle">
+                     Principais <span>Habilidades</span>
+                  </h3>
+                  
+                  <h2 class="section__title">
+                     Minhas habilidades
+                  </h2>
+
+                  <p class="skills__description">
+                     Veja quais tecnologias possuo conhecimento para desenvolver projetos.
+                  </p>
+                  <a href="#projects" class="button">Ver Projetos</a>
+               </div>
+               
+               <div class="skills__content">
+                  <ol class="skills__group">
+                     <li class="skills__item">HTML & CSS</li>
+                     <li class="skills__item">Javascript</li>
+                     <li class="skills__item">Angular</li>
+                     <li class="skills__item">.NET/C#</li>
+                  </ol>
+
+                  <ol class="skills__group" start="5">
+                     <li class="skills__item">Git & Github</li>
+                     <li class="skills__item">Azure</li>
+                     <li class="skills__item">Testes unitários</li>
+                     <li class="skills__item">ORMs</li>
+                  </ol>
+               </div>
+            </div>
+         </section>
+
+         <section class="projects section" id="projects">
+            <h3 class="section__subtitle">
+               Trabalhos <span>Realizados</span>
+            </h3>
+
+            <h2 class="section__title">
+               Projetos Recentes
+            </h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <img src="assets//img/project-img-1.png" alt="project 1" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Web/Mobile</span>
+
+                     <h2 class="projects__title">Agrinvest Commodities</h2>
+
+                     <a href="https://go.agrinvest.agr.br" target="_blank" class="projects__button">Visualizar <i class="ri-external-link-line"></i>></a>
+                  </div>
+               </article>
+               <article class="projects__card">
+                  <img src="assets//img/project-img-2.png" alt="project 1" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Web</span>
+
+                     <h2 class="projects__title">Atlas Governance</h2>
+
+                     <a href="https://welcome.atlasgov.com" target="_blank" class="projects__button">Visualizar <i class="ri-external-link-line"></i>></a>
+                  </div>
+               </article>
+               <article class="projects__card">
+                  <img src="assets//img/project-img-3.png" alt="project 1" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">Web</span>
+
+                     <h2 class="projects__title">CSOnline - Raízen</h2>
+
+                     <a href="https://csonline.com.br" target="_blank" class="projects__button">Visualizar <i class="ri-external-link-line"></i>></a>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <section class="contact section" id="contact">
+            <h3 class="section__subtitle">
+               Entre em <span>Contato</span>
+            </h3>
+            
+            <h2 class="section__title">
+               Envie uma mensagem
+            </h2>
+            <div class="contact__container container grid">
+               <form class="contact__form" id="contact-form">
+                  <div class="contact__group">
+                     <input type="text" name="nome" placeholder="Digite seu nome" class="contact__input" required>
+                     <input type="email" name="email" placeholder="Digite seu email" class="contact__input" required>
+                  </div>
+                  
+                  <textarea name="mensagem" required placeholder="Digite sua mensagem" class="contact__input"></textarea>
+
+                  <p class="contact__message" id="contact-message"></p>
+
+                  <button type="submit" class="button contact__button">Enviar mensagem</button>
+               </form>
+            </div>
+         </section>
+      </main>
+
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <h1 class="footer__title">
+                  Natan <span>Colleoni</span>
+               </h1>
+               <h2 class="footer__education">
+                  Desenvolvedor Full-stack 
+               </h2>
+            </div>
+            <div class="footer__social">
+               <a href="https://github.com/NatanColleoni" target="_blank" class="footer__social-link">
+                  <i class="ri-github-fill"></i>
+               </a>
+               <a href="https://www.linkedin.com/in/natan-colleoni-fonseca-3533071a7/" target="_blank" class="footer__social-link">
+                  <i class="ri-linkedin-box-fill"></i>
+               </a>
+            </div>
+         </div>
+      </footer>
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
